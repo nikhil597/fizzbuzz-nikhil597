@@ -1,3 +1,7 @@
+import Book1.txt
+import Book2.txt
+import Book3.txt
+import 20k.txt
 def wordsearch(file1,file2)
         try:
                 f1=open("/home/student/openbookfinal-2019-nikhil597/20k.txt","r$
