@@ -9,16 +9,16 @@ for i in range(text):
 		n=value.slipt("/n")
 		for letter in n:
 		print(letter)
-		if letter == "o"||"O":
+		if letter == "o" or "O":
 			letter = 0
 			fout.write(letter)
-		elif letter == "a"||"A":
+		elif letter == "a" or "A":
 			letter = 4
 			fout.write(letter)
-		elif letter == "e"||"E":
+		elif letter == "e" or "E":
 			letter = 3
 			fout.write(letter)
-		elif letter == "i"||"I":
+		elif letter == "i" or "I":
 			letter = 1
 			fout.write(letter)
 		elif letter == "er"
